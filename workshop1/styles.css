@@ -7,15 +7,16 @@ body{
     background: linear-gradient(#4f5d75, #2d3142);
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 64px;
 }
 .card{
     background-color: #fff;
-    height: 565.95px;
-    width: 398px; 
+    height: 480px;
+    width: 340px; 
     border-radius: 16px;
-    margin: 16px;
     padding: 16px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -24,13 +25,17 @@ body{
     height: 180px;
     border-radius: 150px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 64px;
 }
 
 h1{ 
-    padding: 8px;
-    font-size: 24px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 96px;
+    font-size: 28px;
     color: #3c7ade;
 }
 h2{
@@ -63,12 +68,15 @@ p.mini{
 
 }
 .iconito{
-    
+    padding-left: 40px
 }
 #icon-pic{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 150px;
+    border-width: 0;
+    box-shadow: 2px 2px 8px #717777;
+
 }
 #button{
   background-color: #3c7ade; 
@@ -76,7 +84,7 @@ p.mini{
   border: none;
   color: #fff;
   margin-right: 8px;
-  padding: 16px 32px;
+  padding: 14px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -87,10 +95,19 @@ p.mini{
     border-radius: 4px;
     border: 2px solid #3c7ade;
     color: #3c7ade;
-    padding: 14px 32px;
+    padding: 12px 22px;
     margin-left: 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+  }
+  #icon-pic:hover{
+    transform: scale(1.08);
+  }
+  #button:hover{
+    transform: scale(1.05);
+  }
+  #flatButton:hover{
+    transform: scale(1.05);
   }
