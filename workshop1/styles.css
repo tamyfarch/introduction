@@ -3,6 +3,11 @@
     margin: 0px; 
     padding: 0px; 
 }
+@font-face { font-family: montse-regular; 
+    src: url('./assets/Montserrat/static/Montserrat-Regular.ttf'); } 
+@font-face { font-family: montse-bold; 
+    src: url('./assets/Montserrat/static/Montserrat-Bold.ttf'); }
+
 body{
     background: linear-gradient(#4f5d75, #2d3142);
     display: flex;
@@ -37,15 +42,19 @@ h1{
     padding-top: 96px;
     font-size: 28px;
     color: #3c7ade;
+    font-family: montse-bold;
 }
 h2{
     padding: 8px;
     font-size: 16px;
     color: #717777;
+    font-family: montse-regular;
 }
 p.description{
     padding: 8px;
     color: #717777;
+    font-size: 12px;
+    font-family: montse-regular;
 }
 hr{
     margin: 8px;
@@ -53,11 +62,13 @@ hr{
 p.qua{
     padding: 2px;
     color: #2d3142;
+    font-family: montse-bold;
 }
 p.mini{
     padding: 2px;
     color: #2d3142;
     font-size: 12px;
+    font-family: montse-regular;
 }
 .icon{
     display: flex;
